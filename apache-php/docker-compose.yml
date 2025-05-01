@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  # Apache and PHP service
+  web:
+    image: php:8-apache
+    restart: always
+    container_name: php-apache-intranet
+    ports:
+      - "8080:80"
+    volumes:
+      - www-data-intranet:/var/www/html
+
+
+# Define networks
+#networks:
+#  default:
+#    external: true
+#    name: matrix
+
+volumes:
+  www-data-intranet:
+    external: true
