@@ -15,7 +15,7 @@ Clonar o repositório
 git clone https://github.com/leomanfredini/docker-compose-recipes.git
 ```
 
-Acessar o diretório da ferramenta a ser implantada
+Acessar o diretório da ferramenta a ser implantada (exemplo):
 ```
 cd docker-compose-recipes/apache-php
 ```
@@ -24,3 +24,12 @@ Iniciar os containers
 ```
 docker-compose up -d
 ```
+
+## Lista de Ferramentas
+
+
+* [**apache-php**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/apache-php) - Servidor web Apache com suporte a PHP.
+* [**apache-php-ssl**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/apache-php-ssl) - Servidor web Apache com suporte a PHP e HTTPS.
+* [**metube**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/metube) - Interface web para o yt-dlp (um fork do youtube-dl), que permite baixar vídeos e áudios de diversas plataformas, como YouTube, de forma simples e personalizável.
+* [**nginx-proxy-manager**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/nginx-proxy-manager) - Facilita a configuração e gerenciamento de proxies reversos, redirecionamentos, certificados SSL e hosts com o Nginx. 
+* [**upsnap**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/upsnap) - Permite ativar remotamente dispositivos na rede local utilizando Wake-on-LAN (WOL), com suporte a agendamento de eventos e interface web para gerenciamento.
