@@ -1,9 +1,26 @@
 # Docker Compose Recipes
 
-List of recipes for use in deploys via *docker compose*.
+Lista de "receitas" para deploy de ferramentas via *docker compose*.
 
-## Prerequisites
+## Requisitos
 
-Docker and Docker Compose running on Linux system.
+Docker and Docker Compose rodando em um sistema Linux.
 
-Guide for installation on Debian Linux: [https://www.manfredini.net.br/posts/docker-compose-portainer/](https://www.manfredini.net.br/posts/docker-compose-portainer/)
+> Guia para instalação em um sistema Debian Linux: [https://www.manfredini.net.br/posts/docker-compose-portainer/](https://www.manfredini.net.br/posts/docker-compose-portainer/)
+
+## Uso
+
+Clonar o repositório
+```
+git clone https://github.com/leomanfredini/docker-compose-recipes.git
+```
+
+Acessar o diretório da ferramenta a ser implantada
+```
+cd docker-compose-recipes/apache-php
+```
+
+Iniciar os containers
+```
+docker-compose up -d
+```
