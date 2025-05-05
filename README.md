@@ -33,3 +33,6 @@ docker-compose up -d
 * [**metube**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/metube) - Interface web para o yt-dlp (um fork do youtube-dl), que permite baixar vídeos e áudios de diversas plataformas, como YouTube, de forma simples e personalizável.
 * [**nginx-proxy-manager**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/nginx-proxy-manager) - Facilita a configuração e gerenciamento de proxies reversos, redirecionamentos, certificados SSL e hosts com o Nginx. 
 * [**upsnap**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/upsnap) - Permite ativar remotamente dispositivos na rede local utilizando Wake-on-LAN (WOL), com suporte a agendamento de eventos e interface web para gerenciamento.
+* [**uptime-kuma**](https://github.com/leomanfredini/docker-compose-recipes/tree/main/uptime-kuma) - ferramenta para monitorar sites, aplicativos e monitorar também serviços através de HTTP/S, TCP, DNS, e alguns outros protocolos.
+
+
