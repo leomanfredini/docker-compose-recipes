@@ -1,0 +1,10 @@
+version: "3"
+services:
+    tinyfilemanager:
+        volumes:
+            - /home/ubuntu/files:/var/www/html/data #alterar o caminho para o diretório de arquivos
+        ports:
+            - 8880:80
+        restart: always
+        container_name: tinyfilemanager
+        image: tinyfilemanager/tinyfilemanager:master
